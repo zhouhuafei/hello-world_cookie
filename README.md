@@ -11,7 +11,6 @@
 
 # 测试流程
 1、启服务：命令行路径切换到项目根目录并输入`nodemon`
-2、在浏览器中输入：http://127.0.0.1:3000
-3、手动设置点cookie
-4、用WebStorm点开index.html
-5、查看请求头里是否携带上了cookie
+2、在浏览器中输入：http://127.0.0.1:3000 服务端会自动设置上键为`key`值为`value`的cookie
+3、用WebStorm点开index.html
+4、查看请求头里是否携带上了cookie
