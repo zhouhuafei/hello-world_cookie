@@ -1,4 +1,4 @@
-> 用WebStorm自带的静态服务测试跨域携带cookie和跨域设置cookie
+> 用WebStorm自带的静态服务测试跨域携带cookie
 
 # 问题
 * 问题：A网站打B网站的接口，默认不会携带B网站的cookie。
