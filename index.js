@@ -23,7 +23,7 @@ router.get('/', async (ctx, next) => {
     expires: myDate,
     httpOnly: false
   })
-  // 跨主域设置cookie(此处不涉及到跨域) ------ 结束
+  // 服务端设置cookie(此处不涉及到跨域) ------ 结束
   console.log(`请求首页`, `ctx.cookies.get('key')`, ctx.cookies.get('key')) // 获取请求头里带过来的cookie。
   ctx.response.body = ctx.request
 })
