@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.bootcss.com/axios/0.19.0/axios.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <script>
+    $.ajax({ url: 'http://127.0.0.1:3000/cookie?type=jquery', xhrFields: { withCredentials: true } })
+    axios.defaults.withCredentials = true // withCredentials为true表示允许携带cookie
+    axios({ url: 'http://127.0.0.1:3000/cookie?type=axios' })
+    </script>
+  </body>
+</html>
